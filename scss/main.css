@@ -11972,7 +11972,7 @@ html {
 }
 
 main {
-  margin-bottom: 241.66px;
+  margin-bottom: 259.66px;
 }
 
 footer.footer {
@@ -12034,4 +12034,13 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+a {
+  color: #907527;
+  font-style: inherit;
+}
+
+.form-label {
+  color: #907527;
 }/*# sourceMappingURL=main.css.map */

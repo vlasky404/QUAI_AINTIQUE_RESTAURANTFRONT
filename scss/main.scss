@@ -5,7 +5,7 @@ html{
     min-height: 100%;
 }
 main{
-    margin-bottom: 241.66px;
+    margin-bottom: 259.66px;
 }
 footer.footer {
     padding: 15px;
@@ -67,4 +67,12 @@ p{
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
+a{
+    color: $primary;
+    font-style: inherit;
+}
+
+.form-label{
+    color: $primary;
 }
