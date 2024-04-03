@@ -56,6 +56,10 @@ p{
         img{
             filter: brightness(0.3);
         }
+        .action-image-buttons{
+            opacity: 1;
+            transition: all 0.3s;
+        }
     }
     img{
         transition: all 0.3s;
@@ -66,6 +70,18 @@ p{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        transition: all 0.3s;
+    }
+    .action-image-buttons{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        opacity: 0;
+        transition: all 0.3s;
     }
 }
 a{
