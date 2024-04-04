@@ -37,10 +37,13 @@
                     <a class="nav-link" href="/moncompte">Mon compte</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/connexion">Connexion</a>
+                    <a class="nav-link" href="/connexion" data-show="disconnected">Connexion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/inscription">Inscription</a>
+                    <button class="nav-link" id="btnDeconnexion" data-show="connected">Déconnexion</button>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/inscription" data-show="disconnected">Inscription</a>
                   </li>
                 </ul>
               </div>
@@ -74,5 +77,6 @@
 
     <script type="module" src="./Router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

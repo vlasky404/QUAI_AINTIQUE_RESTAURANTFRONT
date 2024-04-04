@@ -10,17 +10,23 @@
       <label for="EmailInput" class="form-label">Email</label>
       <input type="email" class="form-control" id="EmailInput" aria-describedby="emailHelp" name="Email">
       <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre Email à d'autre personne.</div>
+      <div class="invalid-feedback">
+        L'email saisie est incorrect.
+      </div>
     </div>
     <div class="ms-5 me-5 mb-3 pt-3">
       <label for="PasswordInput" class="form-label">Mot de passe</label>
       <input type="password" class="form-control" id="PasswordInput" name="Password">
+      <div class="invalid-feedback">
+        Le mot de passe saisie est incorrect.
+      </div>
     </div>
     <div class="ms-5 me-5 mb-3 pt-3 form-check">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
     </div>
     <div class="text-center">
-    <button type="submit" class="btn btn-primary ms-5 me-5 mb-3">Se connecter</button>
+    <button type="button" class="btn btn-primary ms-5 me-5 mb-3" id="btn-connexion">Se connecter</button>
     </div>
 </form>
 <div class="text-center pb-3">
